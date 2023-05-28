@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/443395de6d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>
+            <span>Random Password Generator</span>
+        </h2>
+
+        <input type="text" id="passwordTxt" name="random-password" value="Password Here" readonly>
+        <button id="generateBtn" onclick="genPass()">
+            Generate Password
+        </button>
+        <button onclick="copyToclipboard()">
+            <i class="fa fa-clone"></i>
+        </button>
+        <div id="snackbar">Copied to Clipboard!</div>
+    </div>
+</body>
+</html>
+
+
+<!-- #F8F6EB -->
